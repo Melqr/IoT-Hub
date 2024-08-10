@@ -1,0 +1,9 @@
+.mt-5-custom {
+    margin-top: 5rem;
+    background: #ffffff;
+    border-top: 20px solid rgb(255, 255, 255);
+    border-bottom: 10px solid rgb(255, 255, 255);
+    padding-left: 20px;  /* Adjust this value as needed */
+    padding-right: 20px; /* Adjust this value as needed */
+    box-sizing: border-box;
+  }

@@ -1,0 +1,6 @@
+/* Custom styles for the Dialogflow Messenger */
+df-messenger {
+    --df-messenger-bot-message: #fdad0d;
+    --df-messenger-button-titlebar-color: #fdad0d;
+  }
+  

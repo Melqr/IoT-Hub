@@ -1,0 +1,88 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 20px;
+}
+
+.home_cus_ {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  background: url('../shop/Picture/exploremore.png') no-repeat;
+  background-size: contain; /* Ensure the image scales without being cropped */
+  background-position: center;
+  width: 100%;
+  height: 340px; /* Set the height of the banner */
+  padding: 5rem 9%;
+  border-top: 5px solid white; /* Add a white border to the top */
+  border-bottom: 5px solid white; /* Add a white border to the bottom */
+  box-sizing: border-box; /* Include the border in the element's total width and height */
+}
+.home_cus_ .content{
+  max-width: 50rem;
+  margin-left: 2rem;
+  margin-top: 10rem;
+}
+
+.btnprod{
+  display:inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2rem; /* adjusted padding for better spacing */
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
+.btnprod:hover {
+  background-color: #555; /* hover effect for better interactivity */
+  transform: scale(1.05); /* slight scaling on hover for emphasis */
+}
+/* Common styles for all sections */
+.section1, .section2, .section3, .section4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 628px; /* Set the height of the banner */
+  padding: 5rem 9%;
+  border-bottom: 20px solid rgb(255, 255, 255); /* Add a white border to the bottom */
+  margin-bottom: 40px; /* Add a gap between sections */
+  box-sizing: border-box; /* Include the border in the element's total width and height */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  background-size: contain; /* Ensure the image scales without being cropped */
+  background-position: center;
+}
+
+/* Specific backgrounds for each section */
+.section1 {
+  background: url('../shop/Picture/AboutUs1.png') no-repeat;
+  background-size: contain; /* Ensure the image scales without being cropped */
+  background-position: center;
+}
+
+.section2 {
+  background: url('../shop/Picture/AboutUs2.png') no-repeat;
+  background-size: contain; /* Ensure the image scales without being cropped */
+  background-position: center;
+}
+
+.section3 {
+  background: url('../shop/Picture/AboutUs3.png') no-repeat;
+  background-size: contain; /* Ensure the image scales without being cropped */
+  background-position: center;
+}
+
+.section4 {
+  background: url('../shop/Picture/AboutUs4.png') no-repeat;
+  height: 620px; /* Specific height for section4 */
+  background-size: contain; /* Ensure the image scales without being cropped */
+  background-position: center;
+}
+
+/* Hover effect for all sections */
+.section1:hover, .section2:hover, .section3:hover, .section4:hover {
+  border-bottom: 10px solid rgba(255, 255, 255, 0.918); /* Change the bottom border color on hover */
+  background-color: rgba(232, 77, 10, 0.991); /* Example: change background color slightly on hover */
+}

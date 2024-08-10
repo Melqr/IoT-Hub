@@ -1,0 +1,41 @@
+/* Custom styles for the navbar */
+.navbar-custom {
+    background-color: #EE4D2D; /* Orange background color */
+  }
+  
+/* Custom styles for the buttons */
+.btn-custom-primary{
+  color: #fff;
+  padding: 10px 20px; /* Adjust padding to increase button size */
+  margin: 0 10px; /* Adjust margin for spacing between buttons */
+  font-size: 16px; /* Increase font size */
+}
+
+.btn-custom-primary:hover{
+  background-color: #EE4D2D; /* Darker shade for hover */
+  border-color: #EE4D2D;
+}
+
+.link-no-underline {
+    text-decoration: none;
+  }
+
+
+.btn-outline-success_cus {
+    color: #EE4D2D;
+    border-color: #EE4D2D;
+  }
+  
+  
+  .btn-outline-success_cus:active,
+  .btn-outline-success_cus.active {
+    color: #fff;
+    background-color: #c27800; /* Darker shade for active state */
+    border-color: #c27800;
+  }
+
+  .text-cust{
+    font-size: 16px;
+    margin-top: 0.2rem;
+    margin-left: auto;
+  }

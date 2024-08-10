@@ -1,0 +1,79 @@
+.contact-us-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px; /* Set the height of the banner */
+    width: 100%; /* Set the width to 100% */
+    padding: 20px; /* Add padding to the page */
+    background: url('../shop/Picture/background.png') no-repeat;
+    background-size: contain; /* Ensure the image scales without being cropped */
+    background-position: center;
+    box-sizing: border-box; /* Ensure padding is included in the total width and height */
+  }
+  
+  .contact-section {
+    text-align: center;
+    padding: 40px; /* Add padding to the section */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%; /* Adjusted for responsiveness */
+    transition: transform 0.3s, background-color 0.3s; /* Add transition for interactivity */
+  }
+  
+  .contact-section:hover {
+    transform: translateY(-10px); /* Slightly lift the section on hover */
+    background-color: rgba(255, 255, 255, 1); /* Fully opaque background on hover */
+  }
+  
+  .contact-title {
+    font-size: 36px; /* Increased font size */
+    margin-bottom: 20px;
+    color: #E0A314; /* Use the primary theme color */
+  }
+  
+  .contact-paragraph {
+    font-size: 20px; /* Increased font size */
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .contact-info {
+    font-size: 22px; /* Increased font size */
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-info a {
+    color: #F0A80E; /* Use the secondary theme color */
+    text-decoration: none;
+    transition: color 0.3s; /* Add transition for interactivity */
+  }
+  
+  .contact-info a:hover {
+    color: #E0A314; /* Use the primary theme color on hover */
+    text-decoration: underline;
+  }
+  
+  .chatnow-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .chatnow-button {
+    background-color: #F0A80E; /* Use the secondary theme color */
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Increased padding for a larger button */
+    font-size: 20px; /* Increased font size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Add transition for interactivity */
+  }
+  
+  .chatnow-button:hover {
+    background-color: #E0A314; /* Use the primary theme color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  

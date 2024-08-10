@@ -1,0 +1,180 @@
+/* src/style/Home.css */
+
+.section{
+    padding: 2rem 9%;
+}
+
+.btnhome{
+    display:inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem; /* adjusted padding for better spacing */
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+.btnhome:hover {
+    background-color: #555; /* hover effect for better interactivity */
+    transform: scale(1.05); /* slight scaling on hover for emphasis */
+}
+.home {
+    display: flex;
+    align-items: center;
+    background: url('../shop/Picture/Test_2.png') no-repeat;
+    background-size: contain; /* Ensure the image scales without being cropped */
+    background-position: center;
+    width: 100%;
+    height: 610px; /* Set the height of the banner */
+}
+
+.home .content{
+    max-width: 50rem;
+    margin-left: 11.5rem;
+    margin-top: 20rem;
+}
+
+.home .content h3{
+    max-width: 4rem;
+    color: #333;
+}
+
+.home .content span{
+    font-size: 1.5rem;
+    color:var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.chatbot{
+    display: flex;
+    align-items: center;
+    background: url('../shop/Picture/Chatbot_exp.png') no-repeat;
+    background-size: contain; /* Ensure the image scales without being cropped */
+    background-position: center;
+    width: 100%;
+    height: 640px; /* Set the height of the banner */
+    padding: 5rem 9%;
+    border-top: 20px solid rgb(255, 255, 255); /* Add a white border to the top */
+    border-bottom: 10px solid rgb(255, 255, 255); /* Add a white border to the bottom */
+    box-sizing: border-box; /* Include the border in the element's total width and height */
+}
+.chatbot .content{
+    max-width: 50rem;
+    margin-left: 62rem;
+    margin-top: 25rem;
+}
+
+.chatbot .content h3{
+    max-width: 4rem;
+    color: #333;
+}
+
+.chatbot .content span{
+    font-size: 1.5rem;
+    color:var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.chatbot .content p{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+/* Styles for the home_cus section */
+.home_cus {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    background: url('../shop/Picture/RentNow.png') no-repeat;
+    background-size: contain; /* Ensure the image scales without being cropped */
+    background-position: center;
+    width: 100%;
+    height: 340px; /* Set the height of the banner */
+    padding: 5rem 9%;
+    border-top: 5px solid white; /* Add a white border to the top */
+    border-bottom: 5px solid white; /* Add a white border to the bottom */
+    box-sizing: border-box; /* Include the border in the element's total width and height */
+}
+
+/* Set the height of the banner 
+.home_cus {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: url('../shop/Picture/BANNER.png') no-repeat center center;
+    background-size: cover; 
+    width: 100%;
+    height: 340px; 
+    border-top: 5px solid rgb(253, 253, 253); 
+    border-bottom: 5px solid rgb(253, 253, 253); 
+    box-sizing: border-box; 
+}*/
+
+.home_cus .content {
+    max-width: 50rem; /* Adjust this value as needed */
+    text-align: center; /* Center the text within the content */
+    padding: 0.1rem; /* Add padding for better spacing */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.home_cus .btnhome{
+    display:inline-block;
+    margin-top: 12rem;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem; /* adjusted padding for better spacing */
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+.home_cus .btnhome:hover {
+    background-color: #555; /* hover effect for better interactivity */
+    transform: scale(1.05); /* slight scaling on hover for emphasis */
+}
+.link-no-underline {
+    text-decoration: none;
+  }
+
+  /* Styles for the welcome section */
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    height: 10vh; /* Full height of the viewport */
+    background-color: #f5f5f5; /* Light grey background */
+    margin-top: 1rem;
+}
+
+/* Styles for the content inside the welcome section */
+.content_welc {
+    background-color: #f05629; /* Background color for the box */
+    padding: 2rem; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+    text-align: center; /* Center-align the text */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.content_welc:hover {
+    transform: scale(1.05); /* Slightly enlarge the box on hover */
+    background-color: #e04c20; /* Darker shade of the background color on hover */
+}
+
+.content_welc h2 {
+    color: #fff; /* White text color */
+    font-size: 2rem; /* Larger font size */
+    margin: 0; /* Remove default margin */
+}
